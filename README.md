@@ -8,6 +8,7 @@
 
 ## Start node server :
 
+- cd server
 - npm install
 - npm start or npm run dev
 - running at port : 5000
