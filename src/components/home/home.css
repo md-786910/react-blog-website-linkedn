@@ -1,0 +1,50 @@
+.home {
+  margin-top: 5em;
+  padding: 2em;
+  position: relative;
+}
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.cardBlog {
+  /* width: 20%; */
+  background-color: #80808037;
+  padding: 2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.createBlogIcon {
+  position: fixed;
+  bottom: 5em;
+  right: 3em;
+}
+.icon {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #80808037;
+}
+/* responsive code */
+@media screen and (max-width: 905px) {
+  .home {
+    margin-top: 1em;
+    padding: 2em;
+  }
+  .homeContainer {
+    gap: 1em;
+  }
+  .cardBlog {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 712px) {
+  .home {
+    padding: 10px 0px;
+  }
+  .card {
+    width: 100%;
+  }
+}

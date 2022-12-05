@@ -1,0 +1,42 @@
+.blogpublish {
+  padding: 2em 2em;
+}
+.publishContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.pIcons {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #80808037;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.editor {
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #80808037;
+  width: 90%;
+}
+
+.pubTitle {
+}
+.pubTitle h4 {
+}
+.pubTitle input {
+  width: 100%;
+  border: none;
+  font-size: 25px;
+  padding: 4px;
+  outline: none;
+
+  margin-bottom: 20px;
+}
+
+.ql-editor {
+  height: 400px !important;
+}

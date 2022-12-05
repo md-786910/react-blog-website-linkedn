@@ -1,0 +1,28 @@
+.blog {
+  padding: 2em 3em;
+}
+.blogHead {
+  display: flex;
+  gap: 2em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.homeIcon {
+  width: 10%;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #80808037;
+}
+.blogContent {
+  width: 90%;
+}
+.blogContent h2 {
+  font-size: 34px;
+}
+.blogContent p {
+  margin-top: 20px;
+  font-size: 20px;
+}
